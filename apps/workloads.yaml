@@ -10,10 +10,10 @@ metadata:
 spec:
   project: default
   destination:
-    name: kaichevannes-teleport.uk-incident-k3s
+    name: kai.tams.sh-incident-k3s
     namespace: workloads
   source:
-    repoURL: https://github.com/kaichevannes/beams-incident-management-cluster.git
+    repoURL: https://github.com/kaichevannes-projects/beams-incident-management-cluster.git
     targetRevision: main
     path: workloads
   syncPolicy:
