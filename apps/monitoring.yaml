@@ -20,10 +20,10 @@ spec:
         releaseName: kube-prometheus-stack
         valueFiles:
           - $values/monitoring/values.yaml
-    - repoURL: https://github.com/kaichevannes-projects/teleport-lab.git
+    - repoURL: https://github.com/kaichevannes-projects/beams-incident-management-cluster.git
       targetRevision: main
       ref: values
-      path: kube-prometheus-stack/manifests
+      path: monitoring/manifests
       directory:
         recurse: true
   syncPolicy:
