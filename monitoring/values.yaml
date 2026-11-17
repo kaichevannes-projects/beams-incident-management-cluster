@@ -38,7 +38,6 @@ additionalPrometheusRulesMap:
               kube_deployment_status_replicas_available{
                 namespace="workloads"
               } == 0
-            for: 1m
             labels:
               severity: critical
               pagerduty: "true"
