@@ -7,4 +7,4 @@ spec:
     aws:
       service: ParameterStore
       region: eu-west-1
-      prefix: /teleport/kai-lab/
+      prefix: /teleport/kai-selfhosted/
